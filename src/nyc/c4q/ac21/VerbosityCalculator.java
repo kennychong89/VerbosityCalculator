@@ -46,10 +46,8 @@ public class VerbosityCalculator {
                     if (line.charAt(i) == '.' || line.charAt(i) == '!' || line.charAt(i) == '?')  // could be improved to account for multiple punctuation marks in one sentence (e.g. '...')
                         sentences += 1;
                 }
-
             }
-
-        } catch (FileNotFoundException e){
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
 
