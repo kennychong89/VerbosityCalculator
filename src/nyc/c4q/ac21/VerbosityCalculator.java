@@ -35,7 +35,7 @@ public class VerbosityCalculator {
         double sentences = 0;
         double verbosity;
 
-        try{
+        try {
             Scanner sc = new Scanner(file);
             while (sc.hasNextLine()) {          // grabs each new line of text from the scanner
                 String line = sc.nextLine();
@@ -49,8 +49,7 @@ public class VerbosityCalculator {
 
             }
 
-        }
-        catch (FileNotFoundException e){
+        } catch (FileNotFoundException e){
             e.printStackTrace();
         }
 
