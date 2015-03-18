@@ -9,10 +9,12 @@ import java.util.Scanner;
  */
 
 public class VerbosityCalculator {
+
     public static void main(String[] args){
 
         File dickens = new File("/Users/mona/Desktop/accesscode/VerbosityCalculator/resources/a-tale-of-two-cities.txt");
         File melville = new File("/Users/mona/Desktop/accesscode/VerbosityCalculator/resources/moby-dick.txt");
+
         double dickensVerbosity = read(dickens);
         double melvilleVerbosity = read(melville);
 
